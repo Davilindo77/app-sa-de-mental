@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#app {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.emojis {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+button {
+    font-size: 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover { transform: scale(1.2); }
+
+#dicas {
+    margin: 20px;
+    padding: 15px;
+    background: #e1f5fe;
+    border-radius: 10px;
+    text-align: center;
+}
