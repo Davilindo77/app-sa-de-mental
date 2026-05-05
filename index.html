@@ -16,16 +16,23 @@
             <section id="humor">
                 <h2>Como você se sente agora?</h2>
                 <div class="emojis">
-                    <button onclick="registrar('Feliz')">😊</button>
-                    <button onclick="registrar('Neutro')">😐</button>
-                    <button onclick="registrar('Triste')">😢</button>
-                    <button onclick="registrar('Ansioso')">😰</button>
+                    <button onclick="registrar('Feliz', '😊')">😊</button>
+                    <button onclick="registrar('Neutro', '😐')">😐</button>
+                    <button onclick="registrar('Triste', '😢')">😢</button>
+                    <button onclick="registrar('Ansioso', '😰')">😰</button>
                 </div>
             </section>
 
             <section id="dicas">
                 <h2>Dica do Dia</h2>
                 <p id="texto-dica">Clique em um emoji para receber um conselho.</p>
+            </section>
+
+            <section id="historico-container">
+                <h2>Meu Histórico</h2>
+                <div id="lista-historico">
+                    </div>
+                <button id="btn-limpar" onclick="limparHistorico()">Limpar Tudo</button>
             </section>
         </main>
     </div>
